@@ -1,6 +1,8 @@
 ---
-
-- hosts: all
-  gather_facts: false
+- name: Hello World!
+  hosts: all
+ 
   tasks:
-    - ping:
+ 
+  - name: Hello World!
+    shell: echo "Hi! Tower is working."
